@@ -26,6 +26,17 @@
     },
     "plugins": [
       "expo-sqlite"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3a51c08b-e7e0-438c-82d6-4d4e4e28ccb5"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3a51c08b-e7e0-438c-82d6-4d4e4e28ccb5"
+    }
   }
 }
