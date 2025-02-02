@@ -6,6 +6,8 @@ import * as SQLite from 'expo-sqlite';
 
 async function createDb() {
 
+  // Test if the database is created
+
   const db = await SQLite.openDatabaseAsync('database');
 
   await db.execAsync(`
