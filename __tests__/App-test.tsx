@@ -12,6 +12,9 @@ describe('Anything', () => {
   });
 
   it('renders', () => {
-    render(<App />);
+    const { getByText } = render(<App />);
+
+    expect(getByText('Create db')).toBeTruthy();
+    expect(getByText('Delete db')).toBeTruthy();
   });
 });
